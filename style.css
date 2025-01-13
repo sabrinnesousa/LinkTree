@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:black;
+}
+
+.container{
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 125px;
+}
+.nome-perfil{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.social{
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    color:black;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    transition: transform .4s;
+}
+
+.social:hover{
+    transform: scale(1.1);
+}
+.link-ico{
+    width: 50px;
+    position: absolute;
+    left: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+}
